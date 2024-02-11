@@ -7,7 +7,39 @@
     <!-- css Link -->
     <link href="main.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-    <h1 class="bg-red-400 p-10 m-10">hello world</h1>
+  <body class="bg-white">
+    <section
+      class="flex flex-col items-center m-10 p-10 border-gray-300 rounded-2xl border-2"
+    >
+      <div class="mb-10">
+        <img src="public/images/InstagramTitleUi.png" alt="Title" />
+      </div>
+      <form>
+        <!-- Input Fields -->
+        <div class="px-2 text-sm">
+          <input
+            type="text"
+            placeholder="Phone number, username, or email"
+            id="username"
+            class="border-gray-400 border-2 mb-5 py-2 w-full   px-3 rounded"
+          />
+          <input
+            type="text"
+            placeholder="Password"
+            id="password"
+            class="rounded w-full mb-5 border-gray-400 border-2 px-3 py-2"
+          />
+        </div>
+        <div class="px-2 text-sm text-white">
+          <button class="w-full bg-blue-400 py-2 rounded-xl ">Log in</button>
+        </div>
+      </form>
+      <div class="flex space-x-3 pt-10 items-center">
+        <div class=" flex w-28   h-0.5 bg-gray-400 "></div>
+        <span class="px-5 text-sm">OR</span>
+        <div class=" flex w-28  h-0.5 bg-gray-400"></div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
